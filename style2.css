@@ -1,0 +1,85 @@
+body {
+    background-color: #ffffff; /* branco */
+    color: #000000; /* preto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #007bff; /* azul */
+    color: #ffffff; /* branco */
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    width: 200px; /* ajuste conforme necessário */
+    height: auto;
+    margin: 0 auto; /* centralizar */
+    display: block;
+}
+main {
+    padding: 20px;
+}
+.imagem {
+    width: 30%; /* ajuste conforme necessário */
+    margin: 10px;
+    display: inline-block;
+}
+/* Default styles */
+body {
+    background-color: #ffffff; /* white */
+    color: #000000; /* black */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff; /* blue */
+    color: #ffffff; /* white */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px; /* adjust as needed */
+    height: auto;
+    margin: 0 auto; /* center */
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+.imagem {
+    width: 30%; /* adjust as needed */
+    margin: 10px;
+    display: inline-block;
+    max-width: 100%; /* ensure images don't exceed their container */
+}
+
+/* Media query for iPhone XR */
+@media only screen and (max-width: 414px) {
+    .logo {
+        width: 80px; /* decrease logo size for smaller screens */
+    }
+    .imagem {
+        width: 100%; /* occupy full width for smaller screens */
+    }
+    .body{
+        width: 100%;
+    }
+}
+
+.botao-centralizado {
+    display: block; /* Torna o botão um elemento de bloco */
+    margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+    padding: 10px 20px;
+    background-color: #007bff; /* Azul */
+    color: #ffffff; /* Branco */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
